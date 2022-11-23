@@ -1,0 +1,22 @@
+{
+  "build": {
+    "hardware": "AurixLiteTC375",
+    "f_cpu": "300000000L",
+    "variant": "TC375",
+    "mcu": "tc37xx",
+    "toolchain": "hightec"
+  },
+  "frameworks": [
+    "arduino",
+    "generic_iLLD"
+  ],
+  "name": "AurixLiteTC375",
+  "upload": {
+    "maximum_ram_size": 992000,
+    "maximum_size": 6000000,
+    "das_cfg":"TriBoard_TC37xA_das.cfg",
+    "tool": "aurixflasher"
+  },
+  "url": "https://www.infineon.com/cms/en/product/evaluation-boards/kit_a2g_tc375_lite",
+  "vendor": "infineon"
+}

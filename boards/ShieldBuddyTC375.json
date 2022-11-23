@@ -1,0 +1,22 @@
+{
+  "build": {
+    "hardware": "ShieldBuddyTC375",
+    "f_cpu": "300000000L",
+    "variant": "TC375",
+    "mcu": "tc37xx",
+    "toolchain": "hightec"
+  },
+  "frameworks": [
+    "arduino",
+    "generic_iLLD"
+  ],
+  "name": "ShieldBuddyTC375",
+  "upload": {
+    "maximum_ram_size": 992000,
+    "maximum_size": 6000000,
+    "das_cfg":"TriBoard_TC37xA_das.cfg",
+    "tool": "aurixflasher"
+  },
+  "url": "https://www.hitex.com/microcontroller-support/aurix/shieldbuddy-tc375",
+  "vendor": "Hitex"
+}

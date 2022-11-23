@@ -1,0 +1,22 @@
+{
+  "build": {
+    "hardware": "AurixLiteTC275",
+    "f_cpu": "200000000L",
+    "variant": "TC275",
+    "mcu": "tc27xx",
+    "toolchain": "hightec"
+  },
+  "frameworks": [
+    "arduino",
+    "generic_iLLD"
+  ],
+  "name": "AurixLiteTC275D",
+  "upload": {
+    "maximum_ram_size": 472000,
+    "maximum_size": 4000000,
+    "das_cfg":"Aurduino_TC27xD_das.cfg",
+    "tool": "aurixflasher"
+  },
+  "url": "https://www.infineon.com/cms/en/product/promopages/AURIX-microcontroller-boards/low-cost-arduino-kits/AURIX-TC275-lite-kit/",
+  "vendor": "infineon"
+}

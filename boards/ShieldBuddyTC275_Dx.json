@@ -1,0 +1,22 @@
+{
+  "build": {
+    "hardware": "aurduino_Dx",
+    "f_cpu": "200000000L",
+    "variant": "TC275",
+    "mcu": "tc27xx",
+    "toolchain": "hightec"
+  },
+  "frameworks": [
+    "arduino",
+    "generic_iLLD"
+  ],
+  "name": "ShieldBuddyTC275_Dx",
+  "upload": {
+    "maximum_ram_size": 472000,
+    "maximum_size": 4000000,
+    "das_cfg":"Aurduino_TC27xD_das.cfg",
+    "tool": "aurixflasher"
+  },
+  "url": "https://www.hitex.com/microcontroller-support/aurix/shieldbuddy-tc275",
+  "vendor": "Hitex"
+}
