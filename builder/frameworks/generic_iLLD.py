@@ -211,7 +211,7 @@ libs.append(env.BuildLibrary(
     join("$BUILD_DIR", "Libraries"),
     join(FRAMEWORK_DIR, "Libraries"),
     #src_filter="+<*> -<../Libraries/iLLD/TC27D/Tricore/Cpu/Trap> -<../Libraries/iLLD/TC27D/Tricore/Cpu/CStart>",
-    src_filter="+<*> -<iLLD/TC27D/Tricore/Cpu/Trap> -<iLLD/TC27D/Tricore/Cpu/CStart>",#verificar OJOOOOOOOOOOO
+    src_filter="+<*> -<iLLD/TC27D/Tricore/Cpu/Trap> -<iLLD/TC27D/Tricore/Cpu/CStart>",#!!
 ))
 
 env.BuildSources(
