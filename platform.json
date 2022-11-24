@@ -47,11 +47,6 @@
       "type": "uploader",
       "optional": true,
       "version": "1.0.0"
-    },
-    "tool-infineonmemtool": {
-      "type": "uploader",
-      "optional": true,
-      "version": "1.0.0"
     }
   }
 }
